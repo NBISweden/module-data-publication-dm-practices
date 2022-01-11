@@ -9,11 +9,10 @@ questions:
 objectives:
 - "Explain why data should be publicly available."
 - "Explain different types of repositories and how to find a suitable one."
-- "Explore the Repository Wizard at EBI"
 keypoints:
 - "Benefits of sharing data are several e.g. reproducibility purposes, follow the Open Science directive, meet requirement from publishers."
 - "If possible, use a domain-specific repository since it has maximum reach in the research community." 
-- "[The EBI Repository Wizard](https://www.ebi.ac.uk/submission/) can help you find a suitable repository for your data."
+- "[The EBI Repository Wizard](https://www.ebi.ac.uk/submission/) can help you find a suitable repository for your life science data."
 - "If you ever are stuck, contact us data stewards at NBIS by sending an email to **[data@nbis.se](mailto:data@nbis.se)** or ask for a consultation via **[our homepage](https://nbis.se/support/supportform/index.php?form=consultation)**."
 ---
 ## Why submit your datasets to a repository?
@@ -25,7 +24,7 @@ keypoints:
 * Archival purposes - Research data should be available for as long as it is useful to someone
 * Publication of paper requires it - Nowadays most publishers require you to submit the data to a repository when publishing a paper
 
-### FAIR
+### FAIR data
 Data publication is the best way to make your research projects FAIR since your data becomes:
 * **Findable** by being assigned a persistent identifier, and by being described with rich metadata.
 * **Accessible** by being put in a resourse that is searchable, and enables easy access via internet
@@ -39,19 +38,20 @@ Data publication is the best way to make your research projects FAIR since your 
 
 ## How to find a suitable repository
 ### Types of repositories
-* Domain specific: 
-    * Best choice if suitable, long-term plan, typically free of charge, maximum reach. 
-    * E.g. ENA, ArrayExpress, PRIDE
+* Domain-specific: 
+    * Best choice if suitable, long-term plan, typically free of charge, maximum reach 
+    * E.g. [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/home), [ArrayExpress](https://www.ebi.ac.uk/arrayexpress), [PRIDE](http://www.ebi.ac.uk/pride)
 * General purpose: 
     * Second best, long-term plan, might cost (now or in future), good reach but less specific in metadata → more difficult for future users to judge if a dataset will be useful
-    * E.g. Zenodo, Figshare, Dryad
-* In house/institutional
+    * E.g. [Zenodo](https://zenodo.org/), [(SciLifeLab) Figshare](https://scilifelab.figshare.com/), [Dryad](https://datadryad.org/)
+* In-house/institutional
     * For archive/backup purpose mainly, might cost, limited reach unless also published in data catalogue
 
-### How find a domain specific repository?
-* [EBI wizard](https://www.ebi.ac.uk/submission/) - guide depending on data type
+### How find a domain-specific repository?
+* [EBI repository wizard](https://www.ebi.ac.uk/submission/) - guide depending on data type
 * [ELIXIR deposition databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases) - core resources with long-term data preservation and accessibility plans
-* [FAIRsharing.org/databases](https://fairsharing.org/databases/) - catalogue of many repositories, with possibility to filter on e.g. domain.
+* [FAIRsharing.org/databases](https://fairsharing.org/databases/) - catalogue of many repositories, with possibility to filter on e.g. domain
+* [Scientific Data Repository Guidance](https://www.nature.com/sdata/policies/repositories#life) - publisher’s recommendation
 
 ## EBI Repository Wizard
 
