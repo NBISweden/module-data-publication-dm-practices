@@ -11,7 +11,7 @@ This lesson will give you the why, where and how of data sharing via repository 
 
 * Know how to find a suitable repository for different types of data
 
-* Have experience of a repository submission
+* Know how to make a publication plan for your dataset(s)
 
 * Know where to get help in future submission adventures
 
