@@ -80,64 +80,67 @@ Select one of the scenarios below and answer the questions.
 
 ### Solutions
   > ## Solution project A <!-- ArrayExpress -->
-  > ##### Data types
+  > **Data types**
   > * RNAseq
   > * Gene expression
   >
-  > ##### Repository 
-  > [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/)
+  > **Repository** 
+  > * [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/)
   >
-  > ##### Documentation guidelines
+  > **Documentation guidelines**
   > * [Submission help](https://www.ebi.ac.uk/arrayexpress/help/submissions_overview.html)
   > * [What to prepare](https://www.ebi.ac.uk/fg/annotare/help/what_to_submit.html#what_to_prepare)
   > * [Sequencing library information](https://www.ebi.ac.uk/fg/annotare/help/seq_lib_spec.html) 
   >
-  > ##### Needed preparations
+  > **Needed preparations**
   > * Collect the sample descriptions in txt format according to the metadata standard [Minimum Information About a Sequencing Experiment (MINSEQE)](http://fged.org/projects/minseqe/)
   > * Collect the sequence library descriptions from collaborator who did the sequencing
   > * Make sure that sequence files are in either fastq or bam format, and compressed with gzip
   >
-  > ##### License
+  > **License**
+  >
   > Unless stated otherwise, Creative Commons Zero (CC0) is applied to all EBI resources, see further [https://www.ebi.ac.uk/licencing](https://www.ebi.ac.uk/licencing)
   >
   {: .solution}
 
   > ## Solution project B <!-- PRIDE -->
-  > ##### Data types
-  > Mass spectras
+  > **Data types**
+  > * Mass spectras
   >
-  > ##### Repository 
-  > [PRIDE](https://www.ebi.ac.uk/pride/)
+  > **Repository** 
+  > * [PRIDE](https://www.ebi.ac.uk/pride/)
   >
-  > ##### Documentation guidelines
+  > **Documentation guidelines**
   > [How to submit](https://www.ebi.ac.uk/pride/markdownpage/submitdatapage#prepare_submission)
   >
-  > ##### Needed preparations
+  > **Needed preparations**
   > * Ensure that we have RAW (raw data files), RESULT (analysis files in mzIdentML format) and PEAK files
   > * Collect project level information
   > <!-- what else? -->
   >
-  > ##### License
+  > **License**
+  >
   > Unless stated otherwise, Creative Commons Zero (CC0) is applied to all EBI resources, see further [https://www.ebi.ac.uk/licencing](https://www.ebi.ac.uk/licencing)
   > 
   {: .solution}
 
   > ## Solution project C <!-- SLL Figshare -->
-  > ##### Data types
-  > Spreadsheet in xlsx format
+  > **Data types**
+  > * Spreadsheet in xlsx format
   >
-  > ##### Repository 
-  > [SciLifeLab Data Repository](https://scilifelab.figshare.com/)
+  > **Repository** 
+  > * [SciLifeLab Data Repository](https://scilifelab.figshare.com/)
   >
-  > ##### Documentation guidelines
-  > [Submission guidelines](https://www.scilifelab.se/data/repository/submission/)
+  > **Documentation guidelines**
+  > * [Submission guidelines](https://www.scilifelab.se/data/repository/submission/)
   >
-  > ##### Needed preparations
+  > **Needed preparations**
   > * Collect necessary project level metadata such as title, authors, discipline category (ontology controlled), keywords etc.
   > * Write a manifest file, [(example)](https://www.scilifelab.se/wp-content/uploads/2021/10/MANIFEST.txt)
   > * Write a README file, [(example)](https://www.scilifelab.se/wp-content/uploads/2021/10/README-1.txt)
   >
-  > ##### License
+  > **License**
+  >
   > There are several licenses to choose between, we decided upon Creative Commons Zero (CC0) in order to make the dataset as open and freely available as possible. 
   {: .solution}
 
