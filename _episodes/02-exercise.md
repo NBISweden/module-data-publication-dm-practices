@@ -53,19 +53,19 @@ Does the repository decide the license, or is this decided by you as a submitter
 Select one of the scenarios below and answer the questions.
 <!-- for each project, present a brief description of the research question and the main outcomes; data types, excel sheets, analysis scripts? -->
 
-> #### Project A <!-- ArrayExpress -->
+> ## Project A <!-- ArrayExpress -->
 > <!-- https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-10234/ -->
 > Single-cell replication timing analysis in order to investigate the role of protein Scaffold attachment factor A (SAF-A) in DNA replication.  
 > <!-- details of output are needed, how ensure that ENA will not be the choice? we need some expression data -->
 {: .solution}
 
-> #### Project B <!-- PRIDE -->
+> ## Project B <!-- PRIDE -->
 > <!-- https://www.ebi.ac.uk/pride/archive/projects/PXD029490 -->
 > Proteomics experiment in order to identify novel protein binders of human MIRO2 in prostate cancer using tandem mass spectronomy (MS/MS).
 > <!-- keywords needed for the ENA repo wizard: protein data -> mass spectrometry -> proteomics -->
 {: .solution}
 
-> #### Project C <!-- SLL Figshare -->
+> ## Project C <!-- SLL Figshare -->
 > <!-- https://scilifelab.figshare.com/articles/dataset/Thermal_Proteome_Profiling_dataset_from_Hazara_virus_infected_SW13_cells_treated_with_DMSO_or_antiviral_inhibitor_20_M_TH6744_/13089023 -->
 > Thermal proteome profiling dataset of Hazara virus infected cells under different conditions. The dataset consists of a spreadsheet where a list of proteins identified in each replicate and experimental condition is summarized. 
 > <!-- how describe so that it indicates that a general purpose repo might be a good choice? --> 
@@ -79,7 +79,7 @@ Select one of the scenarios below and answer the questions.
 * Under what licenses will your research outputs be shared?
 
 ### Solutions
-  > #### Solution project A <!-- ArrayExpress -->
+  > ## Solution project A <!-- ArrayExpress -->
   > ##### Data types
   > * RNAseq
   > * Gene expression
@@ -102,7 +102,7 @@ Select one of the scenarios below and answer the questions.
   >
   {: .solution}
 
-  > #### Solution project B <!-- PRIDE -->
+  > ## Solution project B <!-- PRIDE -->
   > ##### Data types
   > Mass spectras
   >
@@ -122,7 +122,7 @@ Select one of the scenarios below and answer the questions.
   > 
   {: .solution}
 
-  > #### Solution project C <!-- SLL Figshare -->
+  > ## Solution project C <!-- SLL Figshare -->
   > ##### Data types
   > Spreadsheet in xlsx format
   >
