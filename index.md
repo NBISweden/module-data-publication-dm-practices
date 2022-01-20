@@ -5,7 +5,7 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 ---
 The datasets produced during a research project is a treasure on its own, and should be treated as such. When publicly available and appropriately described, they are ready to be re-used by yourself as well as others.  
 
-This lesson will give you the why, where and how of data sharing via repository submission, including hands-on exercise. By the end of this lesson you will:
+This lesson will give you the why, where and how of data sharing via repository submission, including hands-on exercise on how to create a data publication plan. By the end of this lesson you will:
 
 * Know the benefits of data sharing
 
