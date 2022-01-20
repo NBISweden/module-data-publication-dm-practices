@@ -11,7 +11,7 @@ objectives:
 - "Explain different types of repositories and how to find a suitable one."
 keypoints:
 - "Benefits of sharing data are several e.g. reproducibility purposes, follow the Open Science directive, meet requirement from publishers."
-- "If possible, use a domain-specific repository since it has maximum reach in the research community." 
+- "If possible, use a domain-specific repository since it has maximum reach in the research community. This is the best way to ensure that your data becomes FAIR." 
 - "[The EBI Repository Wizard](https://www.ebi.ac.uk/submission/) can help you find a suitable repository for your life science data."
 - "If you ever are stuck, contact us data stewards at NBIS by sending an email to **[data@nbis.se](mailto:data@nbis.se)** or ask for a consultation via **[our homepage](https://nbis.se/support/supportform/index.php?form=consultation)**."
 ---
@@ -30,6 +30,8 @@ Data publication is the best way to make your research projects FAIR since your 
 * **Accessible** by being put in a resourse that is searchable, and enables easy access via internet
 * **Interoperable** by using standard format and language to represent both the data and its metadata
 * **Reusable** by fulfilling the F, A, and I, and by having a clear and accessible data usage license
+
+Repositories provides the technical solution to FAIR data. Hence, by submitting data to a repository, your data becomes FAIR and you don't have to provide a solution on your own.
 
 ### What data should be submitted?
 * Raw data: this is the data that comes straight from the instrument, eg RNA sequences in fastq format
