@@ -47,9 +47,8 @@ What is needed in order to be able to do a submission to the chosen repository? 
 
 **5. Under what licenses will your research outputs be shared?**
 
-Does the repository decide the license, or is this decided by you as a submitter? Identify the terms of the repository. If you decide, which license would you choose and why?
+Does the repository decide the license, or is this decided by you as a submitter? Identify the terms of the repository. If you decide, which license would you choose and why? The [Creative commons license chooser](https://creativecommons.org/choose/) is a tool to assist you in finding an appropriate license.
 <!-- is this accurate? -->
-<!-- Niclas: Add tool link? Creative Commons license chooser -->
 
 ### The scenarios
 Select one of the scenarios below and answer the questions.
