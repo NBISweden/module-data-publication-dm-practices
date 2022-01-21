@@ -5,7 +5,7 @@ exercises: 30-60
 questions:
 - "How do I create a data publication plan?"
 objectives:
-- "After the exercise you will have exerience of how to find a suitable repository, and to find out what is required for a submission"
+- "After the exercise you will have exerience of how to find a suitable repository, and to find out what is required for a submission."
 keypoints:
 - "Plan ahead - by knowing where the data will be published already during the project, the data and metadata can be formatted according to the repository's requirements, thus reducing the labour when submitting"
 ---
@@ -58,6 +58,7 @@ Select one of the scenarios below and answer the questions.
 > <!-- https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-10234/ -->
 > Single-cell replication timing analysis in order to investigate the role of protein Scaffold attachment factor A (SAF-A) in DNA replication.
 > <!-- details of output are needed, how ensure that ENA will not be the choice? we need some expression data -->
+> <!-- An alternative, in order to be more precise that ENA will not fit, a transcription profiling experiment: Gene expression profiling of Fowlpox knock-out mutant viruses using genechip arrays in order to investigate the ability of avian fowlpox virus to modulate host antiviral immune responses. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7766033/, https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7276/ -->
 {: .solution}
 
 > ## Project B <!-- PRIDE -->
