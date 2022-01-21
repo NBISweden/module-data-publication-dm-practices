@@ -9,7 +9,7 @@ objectives:
 keypoints:
 - "Plan ahead - by knowing where the data will be published already during the project, the data and metadata can be formatted according to the repository's requirements, thus reducing the labour when submitting"
 ---
-<!-- 
+<!--
 Present the exercise, purpose, how
 Present expected outcome, how to create the plan
 Present the 3 scenarios
@@ -43,11 +43,13 @@ Repositories often have documentation guidelines that are according to domain-re
 
 What is needed in order to be able to do a submission to the chosen repository? Do you e.g. have all metadata at hand, is the (meta) data in an appropriate format?
 <!-- not sure what we aim for in this section -->
+<!-- Niclas: This is about how to format the metadata, isn't it? -->
 
 **5. Under what licenses will your research outputs be shared?**
 
 Does the repository decide the license, or is this decided by you as a submitter? Identify the terms of the repository. If you decide, which license would you choose and why?
 <!-- is this accurate? -->
+<!-- Niclas: Add tool link? Creative Commons license chooser -->
 
 ### The scenarios
 Select one of the scenarios below and answer the questions.
@@ -55,7 +57,7 @@ Select one of the scenarios below and answer the questions.
 
 > ## Project A <!-- ArrayExpress -->
 > <!-- https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-10234/ -->
-> Single-cell replication timing analysis in order to investigate the role of protein Scaffold attachment factor A (SAF-A) in DNA replication.  
+> Single-cell replication timing analysis in order to investigate the role of protein Scaffold attachment factor A (SAF-A) in DNA replication.
 > <!-- details of output are needed, how ensure that ENA will not be the choice? we need some expression data -->
 {: .solution}
 
@@ -67,14 +69,14 @@ Select one of the scenarios below and answer the questions.
 
 > ## Project C <!-- SLL Figshare -->
 > <!-- https://scilifelab.figshare.com/articles/dataset/Thermal_Proteome_Profiling_dataset_from_Hazara_virus_infected_SW13_cells_treated_with_DMSO_or_antiviral_inhibitor_20_M_TH6744_/13089023 -->
-> Thermal proteome profiling dataset of Hazara virus infected cells under different conditions. The dataset consists of a spreadsheet where a list of proteins identified in each replicate and experimental condition is summarized. 
-> <!-- how describe so that it indicates that a general purpose repo might be a good choice? --> 
+> Thermal proteome profiling dataset of Hazara virus infected cells under different conditions. The dataset consists of a spreadsheet where a list of proteins identified in each replicate and experimental condition is summarized.
+> <!-- how describe so that it indicates that a general purpose repo might be a good choice? -->
 {: .solution}
 
 ### Questions to answer
 * What types of outputs will you be creating or collecting?
 * What are suitable repositories for your outputs?
-* What are the documentation guidelines for the repositories?  
+* What are the documentation guidelines for the repositories?
 * What preparations are needed to make data and documentation (metadata) ready for submission?
 * Under what licenses will your research outputs be shared?
 
@@ -84,13 +86,13 @@ Select one of the scenarios below and answer the questions.
   > * RNAseq
   > * Gene expression
   >
-  > **Repository** 
+  > **Repository**
   > * [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/)
   >
   > **Documentation guidelines**
   > * [Submission help](https://www.ebi.ac.uk/arrayexpress/help/submissions_overview.html)
   > * [What to prepare](https://www.ebi.ac.uk/fg/annotare/help/what_to_submit.html#what_to_prepare)
-  > * [Sequencing library information](https://www.ebi.ac.uk/fg/annotare/help/seq_lib_spec.html) 
+  > * [Sequencing library information](https://www.ebi.ac.uk/fg/annotare/help/seq_lib_spec.html)
   >
   > **Needed preparations**
   > * Collect the sample descriptions in txt format according to the metadata standard [Minimum Information About a Sequencing Experiment (MINSEQE)](http://fged.org/projects/minseqe/)
@@ -107,7 +109,7 @@ Select one of the scenarios below and answer the questions.
   > **Data types**
   > * Mass spectras
   >
-  > **Repository** 
+  > **Repository**
   > * [PRIDE](https://www.ebi.ac.uk/pride/)
   >
   > **Documentation guidelines**
@@ -121,14 +123,14 @@ Select one of the scenarios below and answer the questions.
   > **License**
   >
   > Unless stated otherwise, Creative Commons Zero (CC0) is applied to all EBI resources, see further [https://www.ebi.ac.uk/licencing](https://www.ebi.ac.uk/licencing)
-  > 
+  >
   {: .solution}
 
   > ## Solution project C <!-- SLL Figshare -->
   > **Data types**
   > * Spreadsheet in xlsx format
   >
-  > **Repository** 
+  > **Repository**
   > * [SciLifeLab Data Repository](https://scilifelab.figshare.com/)
   >
   > **Documentation guidelines**
@@ -136,11 +138,11 @@ Select one of the scenarios below and answer the questions.
   >
   > **Needed preparations**
   > * Collect necessary project level metadata such as title, authors, discipline category (ontology controlled), keywords etc.
+  > * Write a data dictionary to describe the different metadata attributes
   > * Write a manifest file, [(example)](https://www.scilifelab.se/wp-content/uploads/2021/10/MANIFEST.txt)
   > * Write a README file, [(example)](https://www.scilifelab.se/wp-content/uploads/2021/10/README-1.txt)
   >
   > **License**
   >
-  > There are several licenses to choose between, we decided upon Creative Commons Zero (CC0) in order to make the dataset as open and freely available as possible. 
+  > There are several licenses to choose between, we decided upon Creative Commons Zero (CC0) in order to make the dataset as open and freely available as possible.
   {: .solution}
-
