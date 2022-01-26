@@ -33,10 +33,12 @@ Data publication is the best way to make your research projects FAIR since your 
 
 Repositories provides the technical solution to FAIR data. Hence, by submitting data to a repository, your data becomes FAIR and you don't have to provide a solution on your own.
 
+Note that, while we focus on life science research data, the same principles apply to any other type of research data.
+
 ### What data should be submitted?
-* Raw data: this is the data that comes straight from the instrument, eg RNA sequences in fastq format
-* Processed & analysis data: this is the data where some type of analysis or processing has been done, eg normalization, removal of outliers, expression measurements, statistics
-* Metadata: this is the description of the raw and processed data, eg in the form of minimum information to reproduce the data, sample information, precise protocols
+* Raw data: this is the data that comes straight from the instrument, e.g. RNA sequences in fastq format
+* Processed & analysis data: this is the data where some type of analysis or processing has been done, e.g. normalization, removal of outliers, expression measurements, statistics
+* Metadata: this is the description of the raw and processed data, e.g. in the form of minimum information to reproduce the data, sample information, precise protocols
 
 ## How to find a suitable repository
 ### Types of repositories
@@ -55,6 +57,8 @@ Repositories provides the technical solution to FAIR data. Hence, by submitting 
 * [FAIRsharing.org/databases](https://fairsharing.org/databases/) - catalogue of many repositories, with possibility to filter on e.g. domain
 * [Scientific Data Repository Guidance](https://www.nature.com/sdata/policies/repositories#life) - publisher’s recommendation
 
+<!-- Do we have suggestions for how scientists outside of life science can find repos? -->
+
 ## EBI Repository Wizard
 
 [EBI](https://www.ebi.ac.uk/) hosts several life science repositories, suitable for different types of data. The Repository Wizard helps to identify which one is suitable for your data.
@@ -68,7 +72,7 @@ Repositories provides the technical solution to FAIR data. Hence, by submitting 
 * Either explore the wizard with the purpose of finding a suitable repository for one of your projects, or choose among the scenarios provided below. Which repository is recommended?
 
   * Genomics project with RNA sequences
-  * X-ray chrystollography structure of a protein
+  * X-ray crystollography structure of a protein
   * Gene expression data
   * Protein sequencing data
   * Proteomics project using mass spectrometry
@@ -76,7 +80,7 @@ Repositories provides the technical solution to FAIR data. Hence, by submitting 
 
   > ## Solution
   > * Genomics project with RNA sequences: [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/submit) (DNA/RNA sequence -> no controlled access -> produced experimentally -> Other)
-  > * X-ray chrystollography structure of a protein: [wwPDB OneDep](https://deposit-pdbe.wwpdb.org/deposition) (Structures -> X-ray chrystollography)
+  > * X-ray crystollography structure of a protein: [wwPDB OneDep](https://deposit-pdbe.wwpdb.org/deposition) (Structures -> X-ray crystollography)
   > * Microarray gene expression data: [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/submit/overview.html) (Expression data -> no controlled access -> Microarray gene expression)
   > * Protein sequencing data: [UniProt SPIN](https://www.ebi.ac.uk/swissprot/Submissions/spin/) (Protein data -> no controlled access -> produced experimentally -> Protein sequencing)
   > * Proteomics project using mass spectrometry: [PRIDE](https://www.ebi.ac.uk/pride/markdownpage/submitdatapage) (Protein data -> no controlled access -> produced experimentally -> Mass spectrometry -> Proteomics)
