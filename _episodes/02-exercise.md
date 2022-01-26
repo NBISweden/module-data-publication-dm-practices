@@ -58,10 +58,8 @@ Select one of the scenarios below and answer the questions.
 <!-- for each project, present a brief description of the research question and the main outcomes; data types, excel sheets, analysis scripts? -->
 
 > ## Project A <!-- ArrayExpress -->
-> <!-- https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-10234/ -->
-> Single-cell replication timing analysis in order to investigate the role of protein Scaffold attachment factor A (SAF-A) in DNA replication.
-> <!-- details of output are needed, how ensure that ENA will not be the choice? we need some expression data -->
-> <!-- An alternative, in order to be more precise that ENA will not fit, a transcription profiling experiment: Gene expression profiling of Fowlpox knock-out mutant viruses using genome arrays in order to investigate the ability of avian fowlpox virus to modulate host antiviral immune responses. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7766033/, https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7276/ -->
+> <!-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7766033/, https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7276/ -->
+> Gene expression profiling of Fowlpox knock-out mutant viruses using genome arrays in order to investigate the ability of avian fowlpox virus to modulate host antiviral immune responses.
 {: .solution}
 
 > ## Project B <!-- PRIDE -->
@@ -86,7 +84,6 @@ Select one of the scenarios below and answer the questions.
 ### Solutions
   > ## Solution project A <!-- ArrayExpress -->
   > **Data types**
-  > * RNAseq
   > * Gene expression
   >
   > **Repository**
@@ -99,8 +96,6 @@ Select one of the scenarios below and answer the questions.
   >
   > **Needed preparations**
   > * Collect the sample descriptions in txt format according to the metadata standard [Minimum Information About a Sequencing Experiment (MINSEQE)](http://fged.org/projects/minseqe/)
-  > * Collect the sequence library descriptions from collaborator who did the sequencing
-  > * Make sure that sequence files are in either fastq or bam format, and compressed with gzip
   >
   > **License**
   >
