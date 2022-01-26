@@ -1,5 +1,5 @@
 ---
-title: "Make a data publication plan"
+title: "Planning for data publication"
 teaching: 5
 exercises: 30-60
 questions:
@@ -7,6 +7,7 @@ questions:
 objectives:
 - "After the exercise you will have exerience of how to find a suitable repository, and to find out what is required for a submission."
 keypoints:
+- "Planning for how, when and where research data will be made accessible is part of a Data Management Plan"
 - "Plan ahead - by knowing where the data will be published already during the project, the data and metadata can be formatted according to the repository's requirements, thus reducing the labour when submitting"
 ---
 <!--
@@ -15,7 +16,9 @@ Present expected outcome, how to create the plan
 Present the 3 scenarios
 Present solutions
 -->
-## Exercise - make a data publication plan
+## Exercise - make a plan for data publication
+One of the questions that needs to be addressed in a Data Management Plan (DMP) is *"How, when and where will research data or information about data (metadata) be made accessible?"*. Since the first version of a DMP is to be written before a project begins, this means that you have to have a plan for data sharing early on. Also, different repositories have different requirements regarding which metadata to provide and which formats to use when submitting. Knowing the requirements early on in a project, allows you to collect and format the appropriate metadata already while working on the project, when it is fresh in yours and your collaborators minds. This will greatly reduce the time spent on submission.
+
 During this exercise you will create a plan for making research data available to the public, by identifying a suitable repository and finding out what the requirements are for submission. Three data output scenarios will be presented.
 
 ### Data publication plan
@@ -37,7 +40,7 @@ Try to identify suitable repositories for your main data type(s).
 
 **3. What are the documentation guidelines for the repositories?**
 
-Repositories often have documentation guidelines that are according to domain-relevant standards, which will improve the FAIRness of your data. Organising your output documentation according to these guidelines and standards from the start will make your FAIRification journey much easier.
+Repositories often have documentation guidelines that are according to domain-specific standards, which will improve the FAIRness of your data. Organising your output documentation according to these guidelines and standards from the start will make your FAIRification journey much easier.
 
 **4. What preparations are needed to make data and documentation (metadata) ready for submission?**
 
@@ -58,12 +61,12 @@ Select one of the scenarios below and answer the questions.
 > <!-- https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-10234/ -->
 > Single-cell replication timing analysis in order to investigate the role of protein Scaffold attachment factor A (SAF-A) in DNA replication.
 > <!-- details of output are needed, how ensure that ENA will not be the choice? we need some expression data -->
-> <!-- An alternative, in order to be more precise that ENA will not fit, a transcription profiling experiment: Gene expression profiling of Fowlpox knock-out mutant viruses using genechip arrays in order to investigate the ability of avian fowlpox virus to modulate host antiviral immune responses. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7766033/, https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7276/ -->
+> <!-- An alternative, in order to be more precise that ENA will not fit, a transcription profiling experiment: Gene expression profiling of Fowlpox knock-out mutant viruses using genome arrays in order to investigate the ability of avian fowlpox virus to modulate host antiviral immune responses. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7766033/, https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7276/ -->
 {: .solution}
 
 > ## Project B <!-- PRIDE -->
 > <!-- https://www.ebi.ac.uk/pride/archive/projects/PXD029490 -->
-> Proteomics experiment in order to identify novel protein binders of human MIRO2 in prostate cancer using tandem mass spectronomy (MS/MS).
+> Proteomics experiment in order to identify novel protein binders of human MIRO2 in prostate cancer using tandem mass spectrometry (MS/MS).
 > <!-- keywords needed for the ENA repo wizard: protein data -> mass spectrometry -> proteomics -->
 {: .solution}
 
@@ -107,7 +110,7 @@ Select one of the scenarios below and answer the questions.
 
   > ## Solution project B <!-- PRIDE -->
   > **Data types**
-  > * Mass spectras
+  > * Mass spectra
   >
   > **Repository**
   > * [PRIDE](https://www.ebi.ac.uk/pride/)
