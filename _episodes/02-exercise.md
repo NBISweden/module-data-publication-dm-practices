@@ -42,16 +42,11 @@ Try to identify suitable repositories for your main data type(s).
 
 Repositories often have documentation guidelines that are according to domain-specific standards, which will improve the FAIRness of your data. Organising your output documentation according to these guidelines and standards from the start will make your FAIRification journey much easier.
 
-**4. What preparations are needed to make data and documentation (metadata) ready for submission?**
+Which formats for data and metadata are required to be able to submit? Include the link to documentation guidelines.
 
-What is needed in order to be able to do a submission to the chosen repository? Do you e.g. have all metadata at hand, is the (meta) data in an appropriate format?
-<!-- not sure what we aim for in this section -->
-<!-- Niclas: This is about how to format the metadata, isn't it? -->
+**4. Under what licenses will your research outputs be shared?**
 
-**5. Under what licenses will your research outputs be shared?**
-
-Does the repository decide the license, or is this decided by you as a submitter? Identify the terms of the repository. If you decide, which license would you choose and why? The [Creative commons license chooser](https://creativecommons.org/choose/) is a tool to assist you in finding an appropriate license.
-<!-- is this accurate? -->
+From a FAIR perspective, you should aim for a license which allows your data to be shared as openly as possible. Does the repository decide the license, or is this decided by you as a submitter? Identify the terms of the repository. If you decide, which license would you choose and why? The [Creative commons license chooser](https://creativecommons.org/choose/) is a tool to assist you in finding an appropriate license for data. (Other tools exist if you instead want to put a license on code or software e.g. [Choose a license](https://choosealicense.com/).)
 
 ### The scenarios
 Select one of the scenarios below and answer the questions.
@@ -59,47 +54,42 @@ Select one of the scenarios below and answer the questions.
 
 > ## Project A <!-- ArrayExpress -->
 > <!-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7766033/, https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7276/ -->
-> Gene expression profiling of Fowlpox knock-out mutant viruses using genome arrays in order to investigate the ability of avian fowlpox virus to modulate host antiviral immune responses.
+> Gene *expression profiling* of Fowlpox knock-out mutant viruses using genome *microarrays* in order to investigate the ability of avian fowlpox virus to modulate host antiviral immune responses.
 {: .solution}
 
 > ## Project B <!-- PRIDE -->
 > <!-- https://www.ebi.ac.uk/pride/archive/projects/PXD029490 -->
-> Proteomics experiment in order to identify novel protein binders of human MIRO2 in prostate cancer using tandem mass spectrometry (MS/MS).
-> <!-- keywords needed for the ENA repo wizard: protein data -> mass spectrometry -> proteomics -->
+> *Protein* expression analysis (*proteomics*) in order to identify novel protein binders of human MIRO2 in prostate cancer using tandem *mass spectrometry* (MS/MS).
 {: .solution}
 
 > ## Project C <!-- SLL Figshare -->
 > <!-- https://scilifelab.figshare.com/articles/dataset/Thermal_Proteome_Profiling_dataset_from_Hazara_virus_infected_SW13_cells_treated_with_DMSO_or_antiviral_inhibitor_20_M_TH6744_/13089023 -->
-> Thermal proteome profiling dataset of Hazara virus infected cells under different conditions. The dataset consists of a spreadsheet where a list of proteins identified in each replicate and experimental condition is summarized.
-> <!-- how describe so that it indicates that a general purpose repo might be a good choice? -->
+> Thermal proteome profiling dataset of Hazara virus infected cells. Thermal proteome profiling data type is a new type developed by your group. The dataset consists of a *spreadsheet* containing proteins identified and experimental conditions.
 {: .solution}
 
 ### Questions to answer
 * What types of outputs will you be creating or collecting?
 * What are suitable repositories for your outputs?
-* What are the documentation guidelines for the repositories?
-* What preparations are needed to make data and documentation (metadata) ready for submission?
+* What are the documentation guidelines for the repositories? Which formats for data and metadata are required to be able to submit?
 * Under what licenses will your research outputs be shared?
 
 ### Solutions
   > ## Solution project A <!-- ArrayExpress -->
   > **Data types**
-  > * Gene expression
+  > * Microarray gene expression data
   >
   > **Repository**
   > * [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/)
   >
   > **Documentation guidelines**
-  > * [Submission help](https://www.ebi.ac.uk/arrayexpress/help/submissions_overview.html)
+  > * [Submission overview](https://www.ebi.ac.uk/arrayexpress/help/submissions_overview.html)
   > * [What to prepare](https://www.ebi.ac.uk/fg/annotare/help/what_to_submit.html#what_to_prepare)
-  > * [Sequencing library information](https://www.ebi.ac.uk/fg/annotare/help/seq_lib_spec.html)
   >
-  > **Needed preparations**
-  > * Collect the sample descriptions in txt format according to the metadata standard [Minimum Information About a Sequencing Experiment (MINSEQE)](http://fged.org/projects/minseqe/)
+  > * Collect the sample descriptions in txt format according to the metadata standard [Minimum Information About a Microarray Experiment (MIAME)](http://fged.org/projects/miame/)
   >
   > **License**
   >
-  > Unless stated otherwise, Creative Commons Zero (CC0) is applied to all EBI resources, see further [https://www.ebi.ac.uk/licencing](https://www.ebi.ac.uk/licencing)
+  > No clear license, but [ArrayExpress data access policy](https://www.ebi.ac.uk/arrayexpress/help/FAQ.html#data_restrictions): "No restrictions, all public data from ArrayExpress can be used by anyone and our services are completely free of charge."
   >
   {: .solution}
 
@@ -111,16 +101,13 @@ Select one of the scenarios below and answer the questions.
   > * [PRIDE](https://www.ebi.ac.uk/pride/)
   >
   > **Documentation guidelines**
-  > [How to submit](https://www.ebi.ac.uk/pride/markdownpage/submitdatapage#prepare_submission)
   >
-  > **Needed preparations**
+  > [Prepare submission](https://www.ebi.ac.uk/pride/markdownpage/submitdatapage#prepare_submission)
   > * Ensure that we have RAW (raw data files), RESULT (analysis files in mzIdentML format) and PEAK files
-  > * Collect project level information
-  > <!-- what else? -->
   >
   > **License**
   >
-  > Unless stated otherwise, Creative Commons Zero (CC0) is applied to all EBI resources, see further [https://www.ebi.ac.uk/licencing](https://www.ebi.ac.uk/licencing)
+  > No clear license but [Citing PRIDE](https://www.ebi.ac.uk/pride/markdownpage/citationpage): "All datasets in PRIDE (as part of ProteomeXchange) are made fully open, once the corresponding paper is published."
   >
   {: .solution}
 
@@ -133,14 +120,11 @@ Select one of the scenarios below and answer the questions.
   >
   > **Documentation guidelines**
   > * [Submission guidelines](https://www.scilifelab.se/data/repository/submission/)
-  >
-  > **Needed preparations**
-  > * Collect necessary project level metadata such as title, authors, discipline category (ontology controlled), keywords etc.
   > * Write a data dictionary to describe the different metadata attributes
   > * Write a manifest file, [(example)](https://www.scilifelab.se/wp-content/uploads/2021/10/MANIFEST.txt)
   > * Write a README file, [(example)](https://www.scilifelab.se/wp-content/uploads/2021/10/README-1.txt)
   >
   > **License**
   >
-  > There are several licenses to choose between, we decided upon Creative Commons Zero (CC0) in order to make the dataset as open and freely available as possible.
+  > There are several licenses to choose between, we decided upon [Creative Commons Zero (CC0)](https://creativecommons.org/share-your-work/public-domain/cc0/) in order to make the dataset as open and freely available as possible.
   {: .solution}
