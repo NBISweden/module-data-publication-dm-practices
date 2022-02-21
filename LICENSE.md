@@ -48,6 +48,27 @@ Notices:
   rights such as publicity, privacy, or moral rights may limit how you
   use the material.
 
+## Figures and example data
+The figures and example data referenced in this lesson are licensed as outlined in the table below:
+{% comment %} See _data/licensing.tsv {% endcomment %}
+
+<table>
+<thead>
+  <th>Figure / example data</th>
+  <th>License</th>
+</thead>
+<tbody>
+{% for entry in site.data.licensing %}
+<tr>
+  <td markdown="1">
+  [{{ entry.contentUrl }}](./{{ entry.contentUrl }})
+  </td>
+  <td>{{  entry.license }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
 ## Software
 
 Except where otherwise noted, the example programs and other software
