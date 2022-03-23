@@ -13,7 +13,7 @@ keypoints:
 - "Benefits of sharing data are several e.g. reproducibility purposes, follow the Open Science directive, meet requirement from publishers."
 - "If possible, use a domain-specific repository since it has maximum reach in the research community. This is the best way to ensure that your data becomes FAIR." 
 - "[The EBI Repository Wizard](https://www.ebi.ac.uk/submission/) can help you find a suitable repository for your life science data."
-- "If you ever are stuck, contact us data stewards at NBIS by sending an email to **[data@nbis.se](mailto:data@nbis.se)** or ask for a consultation via **[our homepage](https://nbis.se/support/supportform/index.php?form=consultation)**."
+- "If you ever are stuck, contact us data stewards at NBIS by sending an email to **[data-management@scilifelab.se](mailto:data-management@scilifelab.se)** or ask for a consultation via **[our homepage](https://nbis.se/support/supportform/index.php?form=consultation)**."
 ---
 ## Why submit your datasets to a repository?
 ### Why should I share my data?
