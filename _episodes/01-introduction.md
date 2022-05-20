@@ -22,7 +22,7 @@ Traditionally 'all' research outputs were put in the published article only, res
 Why should you care? Submitting your data to a repository likely takes a lot of time, time you could spend on doing research, and employers as well as funders are only interested in how many articles you have published, not how many datasets you have published. Well, times are indeed changing, there are many institutions with data policies on sharing, and funders want maximum value for their invested money. Besides, if *you* do not share your data, you cannot ask of others to share either, it's as simple as that. You could argue that you do share your data if someone asks for it (aka the (in)famous phrase 'available upon request') but repositories provides the technical solution to FAIR data:
 
 * **Findable** by being assigned a persistent identifier, and by being described with rich metadata.
-* **Accessible** by being put in a resourse that is searchable, and enables easy access via internet
+* **Accessible** by being put in a resource that is searchable, and enables easy access via internet
 * **Interoperable** by using standard format and language to represent both the data and its metadata
 * **Reusable** by fulfilling the F, A, and I, and by having a clear and accessible data usage license 
 
@@ -48,7 +48,7 @@ Apart from the data itself, everything necessary to understand, reproduce and re
 As mentioned, there is now a pletora of repositories, with varying reach (impact) and depth (rich metadata descriptions), and they are often divided into three categories: domain-specific, general purpose, and in-house/institutional.
 
 ### Domain-specific repositories 
-This type of repository focuses on specific data types and is typically the best choice if you can find one that is suitable for your research data. It will reach your research community, so that others working in your field can find and reuse your data, and incorporates metadata standards in order to make the data as widely useful as possible. The repositories usually have long-term sustanability plan, i.e. they will be available for a long time, and are typically free of charge.
+This type of repository focuses on specific data types and is typically the best choice if you can find one that is suitable for your research data. It will reach your research community, so that others working in your field can find and reuse your data, and incorporates metadata standards in order to make the data as widely useful as possible. The repositories usually have long-term sustainability plan, i.e. they will be available for a long time, and are typically free of charge.
 
 Examples: 
 * [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/home) (ENA) - for genomic sequence data (non-human)
@@ -61,7 +61,7 @@ There are several ways to find domain-specific repositories within life science:
 * [ELIXIR deposition databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases) - core resources with long-term data preservation and accessibility plans
 * [FAIRsharing.org/databases](https://fairsharing.org/databases/) - catalogue of many repositories, with possibility to filter on e.g. domain
 * [Scientific Data Repository Guidance](https://www.nature.com/sdata/policies/repositories#life) - publisher’s recommendation
-* [re3data.org](https://www.re3data.org/) - registry of research data repositories
+* [re3data.org](https://www.re3data.org/) - registry of research data repositories (not only life science)
 
 > ## Repository metadata
 > The metadata you collect during your project will end up in the repository, hence finding a suitable repository already while planning the project may help you decide on which metadata to collect.
@@ -88,14 +88,14 @@ Many institutions offer local repositories, and might even require that affiliat
 
 You can also choose to create and host an in-house repository yourself, but that put a lot of responsibility on your shoulders. For how long will you be able to sustain it? It also requires considerable labour in order to make the repository FAIR, and without that the repository will have limited reach unless you also publish in a data catalogue.
 
-> ## Evaluation of the suitability of a repository
+> ## Evaluate the suitability of a repository
 >
-> How do you know if a repository is thrustworthy? Say that you find a repository that might fit your purposes, how can you evaluate if it is suitable? Apart from accepting your type of data, there are some questions to consider when deciding if a certain repository is suitable or not:
+> How do you know if a repository is trustworthy? Say that you find a repository that might fit your purposes, how can you evaluate if it is suitable? Apart from accepting your type of data, there are some questions to consider when deciding if a certain repository is suitable or not:
 >
 > * Are others in the community using it? Explore what datasets are already in it.
 > * While exploring it, is it easy to navigate / user-friendly?
 > * Is there support / guidance for submission and reuse?
-> * Is it sustainable, i.e. will the repository be around for a while? Is there a long-term plan for financing the repository, is it managed by a thrustworthy group?
+> * Is it sustainable, i.e. will the repository be around for a while? Is there a long-term plan for financing the repository, is it managed by a trustworthy group?
 > * Will the datasets obtain persistent identifiers? Is the repository itself FAIR?
 {: .callout}
 
