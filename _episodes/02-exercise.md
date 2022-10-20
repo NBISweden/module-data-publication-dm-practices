@@ -85,7 +85,7 @@ Select one of the scenarios below and answer the questions.
   > * [Submission overview](https://www.ebi.ac.uk/arrayexpress/help/submissions_overview.html)
   > * [What to prepare](https://www.ebi.ac.uk/fg/annotare/help/what_to_submit.html#what_to_prepare)
   >
-  > * Collect the sample descriptions in txt format according to the metadata standard [Minimum Information About a Microarray Experiment (MIAME)](http://fged.org/projects/miame/)
+  > * Collect the sample descriptions in txt format according to the metadata standard [Minimum Information About a Microarray Experiment (MIAME)](https://www.fged.org/projects/miame/)
   >
   > **License**
   >
