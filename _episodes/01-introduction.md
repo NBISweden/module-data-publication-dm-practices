@@ -77,7 +77,7 @@ This type of repository is typically indexed, so you can find its content via se
 Examples:
 * [Zenodo](https://zenodo.org/)
 * [Figshare](https://figshare.com/)
-* [SciLifeLab Data Repository (Figshare)](https://scilifelab.figshare.com/)
+* [SciLifeLab Data Repository (Figshare)](https://figshare.scilifelab.se/)
 * [Dryad](https://datadryad.org/)
 
 The examples above is likely sufficient, but we recommend to also check if your institution have e.g. a figshare instance similar to the one SciLifeLab provides.
