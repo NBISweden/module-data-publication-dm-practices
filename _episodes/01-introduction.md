@@ -114,7 +114,7 @@ You can also choose to create and host an in-house repository yourself, but that
 >  * Protein sequencing data
 >  * Proteomics project using mass spectrometry
 >  * Electron microscopy structure images
-{: .solution} 
+>
   > ## Solution
   > * Genomics project with RNA sequences: [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/submit) (DNA/RNA sequence -> no controlled access -> produced experimentally -> Other)
   > * X-ray crystollography structure of a protein: [wwPDB OneDep](https://deposit-pdbe.wwpdb.org/deposition) (Structures -> X-ray crystollography)
@@ -123,6 +123,7 @@ You can also choose to create and host an in-house repository yourself, but that
   > * Proteomics project using mass spectrometry: [PRIDE](https://www.ebi.ac.uk/pride/markdownpage/submitdatapage) (Protein data -> no controlled access -> produced experimentally -> Mass spectrometry -> Proteomics)
   > * Electron microscopy structure images: [EMPIAR](https://www.ebi.ac.uk/pdbe/emdb/empiar/deposition/) (Structures-> Electron microscopy -> micrographs or particle stacks)
   {: .solution}
+{: .spoiler} 
 
 
 {% include links.md %}
