@@ -1,7 +1,6 @@
 ---
 layout: lesson
 root: .  # Is the only page that doesn't follow the pattern /:path/index.html
-permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
 The datasets produced during a research project is a treasure on its own, and should be treated as such. When publicly available and appropriately described, they are ready to be re-used by yourself as well as others.  
 
