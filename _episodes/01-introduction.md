@@ -50,9 +50,14 @@ As mentioned, there is now a pletora of repositories, with varying reach (impact
 ### Domain-specific repositories 
 This type of repository focuses on specific data types and is typically the best choice if you can find one that is suitable for your research data. It will reach your research community, so that others working in your field can find and reuse your data, and incorporates metadata standards in order to make the data as widely useful as possible. The repositories usually have long-term sustainability plan, i.e. they will be available for a long time, and are typically free of charge.
 
+> ## Repositories for sensitive human data
+> Sensitive personal data is a special category of personal data as defined by the General Data Protection Regulation (GDPR). Examples of this data type within the biomedical research field are genetic data and health data (sensitive human data). Sensitive human data cannot be made publicly available in ordinary open-access domain specific repositories but can instead be deposited in special repositories such as the European Genome-phenome Archive (EGA) or the Swedish Federated European Genome-phenome Archive (FEGA Sweden). In this case the metadata records are openly accessible but the sensitive data is made available under restricted access. Restricted access means that researchers can request access to the sensitive data through a formalized application procedure.
+{: .callout}
+
 Examples: 
 * [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/home) (ENA) - for genomic sequence data (non-human)
 * [European Genome Phenome Archive](https://ega-archive.org/) (EGA) - for human genomic sequence data
+* [Federated European Genome Phenome Archive Sweden](https://fega.nbis.se/) (FEGA Sweden) - Swedish EGA for human genomic sequence data
 * [ArrayExpress](https://www.ebi.ac.uk/arrayexpress) - for gene expression data
 * [PRIDE](http://www.ebi.ac.uk/pride) - for proteomics data
 
