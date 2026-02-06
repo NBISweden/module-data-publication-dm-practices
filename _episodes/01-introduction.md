@@ -54,6 +54,17 @@ This type of repository focuses on specific data types and is typically the best
 > Sensitive personal data is a special category of personal data as defined by the General Data Protection Regulation (GDPR). Examples of this data type within the biomedical research field are genetic data and health data (sensitive human data). Sensitive human data cannot be made publicly available in ordinary open-access domain specific repositories but can instead be deposited in special repositories such as the European Genome-phenome Archive (EGA) or the Swedish Federated European Genome-phenome Archive (FEGA Sweden). In this case the metadata records are openly accessible but the sensitive data is made available under restricted access. Restricted access means that researchers can request access to the sensitive data through a formalized application procedure.
 {: .callout}
 
+> ## About sensitive human data
+> ![](../fig/sensitive_personal_data.PNG)
+> What data is regarded as personal data? Well, that depends on the context. If you only have a *name*, it is not considered to be personal, and even if you have a *name* and the *city* where this person lives, it is likely not personal data. However, if you also have *date of birth*, this is likely considered as personal data.
+>
+>What data is regarded as **sensitive** personal data? Sensitive personal data, as defined by the [General Data Protection Regulation (GDPR) (Art. 9)](), refers to information that is particularly private or sensitive in nature. When it comes to life science research, *Health* data and *Genetic* data are the most relevant categories of sensitive personal data. This means that if you are working with DNA sequences, the sequences themselves are sensitive personal data, irrespective of what information you have regarding who's gene sequence it is. 
+>
+>Another example of sensitive personal data is if we have the information *name*, *city*, and *date of birth*, i.e. typically personal but not sensitive data, and we add *disease diagnosis* information, this is classified as sensitive personal data. 
+>
+>SciLifeLab RDM guidelines have more guidance when it comes to [Research involving human data](https://data-guidelines.scilifelab.se/topics/research-involving-human-data/).
+{: .solution}
+
 Examples: 
 * [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/home) (ENA) - for genomic sequence data (non-human)
 * [European Genome Phenome Archive](https://ega-archive.org/) (EGA) - for human genomic sequence data
