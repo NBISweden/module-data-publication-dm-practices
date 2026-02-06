@@ -56,6 +56,7 @@ This type of repository focuses on specific data types and is typically the best
 
 > ## About sensitive human data
 > ![](../fig/sensitive_personal_data.PNG)
+>
 > What data is regarded as personal data? Well, that depends on the context. If you only have a *name*, it is not considered to be personal, and even if you have a *name* and the *city* where this person lives, it is likely not personal data. However, if you also have *date of birth*, this is likely considered as personal data.
 >
 >What data is regarded as **sensitive** personal data? Sensitive personal data, as defined by the [General Data Protection Regulation (GDPR) (Art. 9)](), refers to information that is particularly private or sensitive in nature. When it comes to life science research, *Health* data and *Genetic* data are the most relevant categories of sensitive personal data. This means that if you are working with DNA sequences, the sequences themselves are sensitive personal data, irrespective of what information you have regarding who's gene sequence it is. 
