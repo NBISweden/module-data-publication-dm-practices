@@ -63,7 +63,7 @@ This type of repository focuses on specific data types and is typically the best
 >
 >Another example of sensitive personal data is if we have the information *name*, *city*, and *date of birth*, i.e. typically personal but not sensitive data, and we add *disease diagnosis* information, this is classified as sensitive personal data. 
 >
->SciLifeLab RDM guidelines have more guidance when it comes to [Research involving human data](https://data-guidelines.scilifelab.se/topics/research-involving-human-data/).
+>SciLifeLab RDM guidelines have more guidance when it comes to [Research involving human data](https://rdm-guidelines.scilifelab.se/topics/research-involving-human-data/).
 {: .solution}
 
 Examples: 
